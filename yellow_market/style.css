@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(124, 177, 177);
+}
+
+.signboard {
+    text-align: center;
+    color: yellow;
+}
+
+.socks {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buy-button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: pink;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.buy-button:hover {
+    background-color: greenyellow;
+    border-bottom: 0;
+    border-top: 1px solid black;
+}
